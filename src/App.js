@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Card from './card.js';
-import Card2 from './card2.js';
-import Card3 from './card3.js';
-
+import {Card2,Card3,Card4,Card5} from './card2.js';
+import Card from './card';
+import Footer from './foot';
+import Timer from './timer.js'
 
 
 function App(){
   return (
     <div className="App">
-      <Card/>
+      <Timer/>
+      <Card />
       <Card2 invite="Loreum ipsium"/>
-      <Card3/>
+      <Card3 invite="Loreum ipsium"/>
+      <Card4 invite="Loreum ipsium"/>
+      <Card5 invite="Loreum ipsium"/>
+      <Footer/>
+
     </div>
   );
 

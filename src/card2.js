@@ -1,11 +1,36 @@
 import React from 'react';
+import Timer from './timer.js';
 
-function Card2(props){
+export function Card2(props){
     return(
-        <div className="body">
-            <h1 className="maintext">This is complete body</h1>
+        <div className="body1">
             <h2>{props.invite}</h2>
         </div>
     );
 }
-export default Card2;
+
+export function Card3(props){
+    return(
+        <div className="body2">
+            
+            <h2>{props.invite}</h2>
+        </div>
+    );
+}
+
+export function Card4(props){
+    return(
+        <div className="body3">
+            <h2>{props.invite}</h2>
+        </div>
+    );
+}
+
+export function Card5(props){
+    return(
+        <div className="body4">
+            
+            <h2>{props.invite}</h2>
+        </div>
+    );
+}
